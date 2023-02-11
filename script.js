@@ -5,7 +5,7 @@ const author = document.querySelector(".author");
 console.log(open, close, author);
 
 open.addEventListener("click", () => {
-  author.classList.add("active");
+  author.classList.toggle("active");
 });
 
 close.addEventListener("click", () => {
